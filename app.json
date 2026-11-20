@@ -1,0 +1,19 @@
+{
+      "expo": {
+          "name": "Elite Chauffeur",
+              "slug": "elite-chauffeur",
+                  "version": "1.0.0",
+                      "orientation": "portrait",
+                          "userInterfaceStyle": "dark",
+                              "splash": {
+                                    "backgroundColor": "#080808"
+                                        },
+                                            "ios": {
+                                                  "supportsTablet": true,
+                                                        "bundleIdentifier": "com.eliteclub.chauffeur"
+                                                            },
+                                                                "android": {
+                                                                      "package": "com.eliteclub.chauffeur"
+                                                                          }
+                                                                            }
+                                                                            }
