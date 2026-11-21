@@ -12,15 +12,15 @@ import {
 
 import { supabase } from "./supabase";
 
-import LoginScreen from "./src/shared/LoginScreen";
-import RegisterScreen from "./src/shared/RegisterScreen";
+import LoginScreen from "./src/shared/src/shared/LoginScreen";
+import RegisterScreen from "./src/shared/src/shared/RegisterScreen";
 
-import PassengerHome from "./src/passenger/PassengerHome";
-import Booking from "./src/passenger/Booking";
-import PassengerBookings from "./src/passenger/PassengerBookings";
+import PassengerHome from "./src/passenger/src/passenger/PassengerHome";
+import Booking from "./src/passenger/src/passenger/Booking";
+import PassengerBookings from "./src/passenger/src/passenger/PassengerBookings";
 
-import DriverHome from "./src/driver/DriverHome";
-import DriverBookings from "./src/driver/DriverBookings";
+import DriverHome from "./src/driver/src/driver/DriverHome";
+import DriverBookings from "./src/driver/src/driver/DriverBookings";
 
 export default function App() {
   const [screen, setScreen] = useState("welcome");
