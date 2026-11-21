@@ -12,7 +12,7 @@ import {
   Platform,
   ScrollView,
 } from "react-native";
-import { supabase } from "../../supabase";
+import { supabase } from "../../../../supabase";
 
 export default function LoginScreen({ onLogin }) {
   const [role, setRole] = useState("passenger");
