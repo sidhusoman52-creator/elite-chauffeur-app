@@ -9,7 +9,7 @@ import {
   ActivityIndicator,
   Alert,
 } from "react-native";
-import { supabase } from "../../supabase";
+import { supabase } from "../../../../supabase";
 
 export default function PassengerBookings() {
   const [bookings, setBookings] = useState([]);
