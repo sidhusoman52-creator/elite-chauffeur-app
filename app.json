@@ -8,7 +8,12 @@
                               "splash": {
                                     "backgroundColor": "#080808"
                                         },
-                                            "ios": {
+                                           "extra": {
+                                             "eas": {
+                                               "projectId": "29144ff9-38c7-462b-92b2-2ac892fee8aa"
+                                                 }
+                                                 },
+                                                "ios": {
                                                   "supportsTablet": true,
                                                         "bundleIdentifier": "com.eliteclub.chauffeur"
                                                             },
